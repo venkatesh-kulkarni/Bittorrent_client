@@ -1,6 +1,6 @@
 const fs = require('fs');
 const bencode = require('bencode');
-const tracker = require('./tracker');
+const tracker = require('./.dist/tracker');
 const download = require('./src/download');
 const torrentParser = require('./src/torrent-parser');
 
